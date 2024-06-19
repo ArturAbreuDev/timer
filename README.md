@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Ignite Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O Ignite Timer é um projeto desenvolvido como parte do curso de React da Rocketseat, no programa Ignite. É uma aplicação de cronômetro simples construída utilizando React, TypeScript e estilização com Tailwind CSS, no curso a estilização era feita em Styled-components mas resolvi fazer em tailwind css, que no meu modo de ver é melhor e mais dinamico!
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cronômetro:** Contagem de tempo regressivo.
+- **Controles de Tempo:** Iniciar, pausar, reiniciar e ajustar o tempo do cronômetro.
+- **Notificações:** Alerta visual quando o tempo termina.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Tailwind CSS
 
-- Configure the top-level `parserOptions` property like this:
+## Licença
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
